@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCIRA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Top Header -->
+    <div class="bg-white text-xs text-gray-700 p-2 flex justify-between items-center border-b border-gray-200">
+        <div class="flex items-center space-x-2">
+            <span>भारत सरकार</span>
+            <span>Government of India</span>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-500 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16"><path d="M8 3.5a1.5 1.5 0 0 0-1.5 1.5v4a.5.5 0 0 0 1 0v-4a.5.5 0 0 1 1 0v4a.5.5 0 0 0 1 0v-4A1.5 1.5 0 0 0 8 3.5zM8 2a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 1 0v-5A.5.5 0 0 0 8 2zM0 8a8 8 0 0 1 16 0V6a2 2 0 0 1-2-2h-3a2 2 0 0 1-2-2v-.5A.5.5 0 0 0 8 1a.5.5 0 0 0-.5.5V2a2 2 0 0 1-2 2h-3a2 2 0 0 1-2 2v2zm8-1.5a1.5 1.5 0 0 0-1.5 1.5v4a.5.5 0 0 0 1 0v-4a.5.5 0 0 1 1 0v4a.5.5 0 0 0 1 0v-4A1.5 1.5 0 0 0 8 6.5z"/></svg>
+            </a>
+            <a href="#" class="text-sm font-bold">हिन्दी</a>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="bg-white p-4 flex justify-between items-center shadow-md">
+        <div class="flex items-center space-x-4">
+            <img src="https://currentaffairs.adda247.com/wp-content/uploads/multisite/sites/5/2023/08/03102227/education-ministry-1684779082.jpg" alt="Ministry of Education Logo" class="h-20 w-auto">
+            <div class="flex flex-col">
+                <span class="font-extrabold text-[#005A9C] text-5xl tracking-wider">ASCIRA</span>
+                <!-- Social media icons with IDs -->
+                <div class="flex flex-col space-y-2 mt-2">
+                    <div class="flex items-center space-x-2">
+                        <a href="https://www.facebook.com/ascira" class="text-gray-500 hover:text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.276c0-2.013 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.953h-1.009c-.994 0-1.304.62-1.304 1.25V8.05h2.219l-.353 2.152h-1.866V15.99c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+                        </a>
+                        <p class="text-xs font-semibold">ASCIRA</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <a href="https://twitter.com/ASCIRA18" class="text-gray-500 hover:text-blue-500">
+                            <img src="https://static.vecteezy.com/system/resources/previews/027/395/710/original/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" alt="Twitter Logo" class="h-6 w-auto">
+                        </a>
+                        <p class="text-xs font-semibold">@ASCIRA18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search, Login, and Azadi Ka Amrit Mahotsav logo options -->
+        <div class="flex items-center space-x-4">
+            <!-- Azadi Ka Amrit Mahotsav Logo -->
+            <img src="https://www.pngmart.com/files/23/Azadi-Ka-Amrit-Mahotsav-Logo-PNG-HD.png" alt="Azadi Ka Amrit Mahotsav Logo" class="h-16 w-auto">
+            <a href="#" class="text-gray-500 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.535 11.838 5.485 11 8 11s4.468.838 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Menu Bar -->
+    <nav class="bg-[#005A9C] text-white py-3 shadow-md">
+        <div class="container mx-auto flex justify-start items-center space-x-8 text-sm">
+            <a href="#" class="px-4 py-2 hover:bg-blue-700 rounded-md bg-blue-700">HOME</a>
+            <a href="#about-us-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">ABOUT US</a>
+            <a href="#vision-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">VISION</a>
+            <a href="#mission-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">MISSION</a>
+            <a href="#gallery-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">GALLERY</a>
+            <a href="#schemes-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">SCHEMES</a>
+            <a href="#news-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">NEWS & UPDATES</a>
+            <a href="#services-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">SERVICES</a>
+            <a href="#contact-section" class="px-4 py-2 hover:bg-blue-700 rounded-md">CONTACT US</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section with Mission, Vision, Goals -->
+    <div class="relative w-full p-8 flex flex-col items-center justify-center bg-[#005A9C] text-white">
+        <!-- Main title and quote -->
+        <div class="flex flex-col items-center mb-10">
+            <p class="text-5xl md:text-8xl font-bold">ASCIRA</p>
+            <p class="text-lg md:text-xl font-medium mt-4">"ASCIRA: A Beacon of Light Guiding You to a Brighter Future."</p>
+        </div>
+
+        <!-- Three boxes for Vision, Mission, and Goals -->
+        <div class="flex flex-col md:flex-row justify-around w-full max-w-7xl space-y-8 md:space-y-0 md:space-x-8">
+            <!-- Vision Box -->
+            <div id="vision-section" class="bg-white text-gray-800 p-6 rounded-lg shadow-lg flex-1">
+                <h3 class="text-2xl font-bold mb-2 text-[#005A9C]">Vision</h3>
+                <p class="text-sm leading-relaxed">
+                    Our vision is to build a platform where every citizen has easy access to accurate and useful data. We aim to create an ecosystem that contributes to the nation's progress by sharing important information about unemployment, literacy, and other key metrics through a powerful API.
+                </p>
+            </div>
+            
+            <!-- Mission Box -->
+            <div id="mission-section" class="bg-white text-gray-800 p-6 rounded-lg shadow-lg flex-1">
+                <h3 class="text-2xl font-bold mb-2 text-[#005A9C]">Mission</h3>
+                <p class="text-sm leading-relaxed">
+                    Our mission is to develop a robust API that provides simple and secure access to data related to unemployment and literacy. We are committed to fostering technology that makes data easily available for public use, thereby assisting in research, policy-making, and social reforms.
+                </p>
+            </div>
+
+            <!-- Goals Box -->
+            <div id="goals-section" class="bg-white text-gray-800 p-6 rounded-lg shadow-lg flex-1">
+                <h3 class="text-2xl font-bold mb-2 text-[#005A9C]">Goals</h3>
+                <p class="text-sm leading-relaxed">
+                    Our goals include building a comprehensive database that incorporates unemployment and literacy data using modern technology. We are focused on creating a system that provides this data to users instantly and effectively.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- About Us Section -->
+    <div id="about-us-section" class="w-full p-8 flex flex-col items-center bg-gray-100 text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">About Us</h2>
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl text-center">
+            <p class="text-base leading-relaxed text-gray-700">
+                ASCIRA is an initiative by the Government of India aimed at making critical social and economic data transparent and accessible to all citizens. Our core objective is to democratize data by providing a powerful, easy-to-use API that serves as a central hub for information related to unemployment, literacy, and other key demographic indicators.
+                <br><br>
+                Through this platform, we strive to empower researchers, students, journalists, and policymakers with the data they need to drive informed decisions and create impactful solutions. By breaking down data silos, we are contributing to a more transparent, efficient, and data-driven governance model for a progressive India.
+            </p>
+        </div>
+    </div>
+
+    <!-- Important Statistics Section -->
+    <div id="statistics-section" class="w-full p-8 flex flex-col items-center bg-white text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Important Statistics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+            <!-- Literacy Rate - Bihar -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Literacy Rate in Bihar</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    As per the latest available data, the literacy rate in Bihar is approximately 61.8%, which is the lowest among all Indian states. The government is actively implementing various schemes to improve this rate.
+                </p>
+            </div>
+            <!-- Employment Rate - Maharashtra -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Employment Rate in Maharashtra</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    Maharashtra has one of the highest employment rates in the country, with an urban employment rate of around 94.5% and a rural rate of 96.1% as of recent reports. It is a major economic hub.
+                </p>
+            </div>
+            <!-- Population - India -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Population of India</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    India's population is estimated to be over 1.4 billion, making it the most populous country in the world. This demographic trend presents both challenges and opportunities for growth and development.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Schemes Section -->
+    <div id="schemes-section" class="w-full p-8 flex flex-col items-center bg-white text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Government Schemes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+            <!-- Scheme 1 -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Pradhan Mantri Kaushal Vikas Yojana</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    A flagship scheme of the Ministry of Skill Development & Entrepreneurship (MSDE) implemented by National Skill Development Corporation (NSDC). The objective of this Scheme is to enable a large number of Indian youth to take up industry-relevant skill training that will help them in securing a better livelihood.
+                </p>
+            </div>
+            <!-- Scheme 2 -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Ayushman Bharat Yojana</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    A national public health insurance fund of the Government of India that aims to provide free access to health insurance coverage for low-income earners in the country. It is a major step towards providing Universal Health Coverage.
+                </p>
+            </div>
+            <!-- Scheme 3 -->
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 class="text-xl font-bold mb-2 text-gray-800">Digital India Programme</h4>
+                <p class="text-sm leading-relaxed text-gray-600">
+                    A flagship programme of the Government of India with a vision to transform India into a digitally empowered society and knowledge economy. The programme aims to ensure that government services are made available to citizens electronically.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- News & Announcements Section -->
+    <div id="news-section" class="w-full p-8 flex flex-col items-center bg-gray-100 text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">News & Announcements</h2>
+        <div class="w-full max-w-4xl space-y-4">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <span class="text-xs text-gray-500 font-semibold">25th August, 2024</span>
+                <p class="text-lg font-semibold text-gray-800">New skill development courses launched for the IT sector.</p>
+                <a href="#" class="text-blue-500 hover:underline text-sm">Read more</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <span class="text-xs text-gray-500 font-semibold">18th August, 2024</span>
+                <p class="text-lg font-semibold text-gray-800">Literacy rates see a record increase in rural areas.</p>
+                <a href="#" class="text-blue-500 hover:underline text-sm">Read more</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <span class="text-xs text-gray-500 font-semibold">10th August, 2024</span>
+                <p class="text-lg font-semibold text-gray-800">National summit on digital education to be held next month.</p>
+                <a href="#" class="text-blue-500 hover:underline text-sm">Read more</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Gallery Section -->
+    <div id="gallery-section" class="w-full p-8 flex flex-col items-center bg-white text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+            <!-- Updated Image: US Older Population Growth -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://www.census.gov/content/dam/Census/library/stories/2023/05/2020-census-united-states-older-population-grew-figure-1.jpg" alt="US Older Population Growth 2010 to 2020" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">US Older Population Growth (2010-2020)</p>
+            </div>
+            <!-- Image 1: Population -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://c8.alamy.com/comp/2B0GHWF/electronic-population-census-a-diverse-silhouettes-group-of-people-isolated-on-white-background-vector-stock-illustration-2B0GHWF.jpg" alt="A depiction of population data and statistics" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">जनगणना</p>
+            </div>
+            <!-- Image 2: API Technologies -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://d1hbpr09pwz0sk.cloudfront.net/logo_url/apitech-89459830" alt="API Technologies Corp. logo" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">API Technologies Corp. Logo</p>
+            </div>
+            <!-- Updated Image: Digital India -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://blogmedia.testbook.com/blog/wp-content/uploads/2024/01/digital-india-6272421c.jpg" alt="Digital India Initiative Banner" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">Digital India Initiative</p>
+            </div>
+            <!-- Updated Image: Skill Development -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.G7vUaYnIBgQHDR0ZdduE1AHaEJ?pid=Api&P=0&h=180" alt="People participating in a skill development program" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">Skill Development Programs</p>
+            </div>
+            <!-- Updated Image: Research & Innovation -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col items-center">
+                <img src="https://alcorfund.com/wp-content/uploads/2020/09/Innovation.png" alt="A depiction of innovation and research with a lightbulb icon" class="rounded-lg shadow-sm mb-4">
+                <p class="text-sm font-semibold text-gray-700">Research & Innovation</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Citizen Services & Quick Links Section -->
+    <div id="services-section" class="w-full p-8 flex flex-col items-center bg-gray-100 text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Citizen Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-7xl">
+            <!-- Services Column -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold mb-4 text-[#005A9C]">Our Services</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li><a href="#" class="hover:underline text-gray-700">Digital ID Verification</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Online Application for Schemes</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Skill Training Registration</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Literacy Program Enrollment</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Access to Open Data API</a></li>
+                </ul>
+            </div>
+            <!-- Quick Links Column -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold mb-4 text-[#005A9C]">Quick Links</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li><a href="#" class="hover:underline text-gray-700">Press Releases</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Forms & Downloads</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Reports & Publications</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">FAQ</a></li>
+                    <li><a href="#" class="hover:underline text-gray-700">Career Opportunities</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mumbai Data Section -->
+    <div id="mumbai-data-section" class="w-full p-8 flex flex-col items-center bg-white text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Mumbai: Employment and Population Data</h2>
+        <p class="text-sm leading-relaxed text-gray-600 mb-6 text-center max-w-4xl">
+            This section displays data related to Mumbai's population and some key job sectors. Please note that this data is for demonstration purposes only and may not be based on actual figures.
+        </p>
+
+        <div class="w-full max-w-4xl bg-gray-50 p-6 rounded-lg shadow-md overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead>
+                    <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Sector</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Requirement/Population</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    <!-- Population Data Row -->
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Population</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Total population of Mumbai city</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Approximately 20 million (2024 estimate)</td>
+                    </tr>
+                    <!-- Job Sector Data Rows -->
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Information Technology (IT)</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Software developers, data analysts, cybersecurity specialists</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">High demand</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Financial Services</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Banking, investment, insurance, and accountants</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Very high demand</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-500">Healthcare</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Doctors, nurses, pharmacists, and medical technicians</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Steady demand</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Real Estate and Construction</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Civil engineers, architects, project managers</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Moderate demand</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact-section" class="w-full p-8 flex flex-col items-center bg-gray-100 text-gray-800">
+        <h2 class="text-4xl font-bold mb-6 text-[#005A9C]">Contact Us</h2>
+        <div class="flex flex-col md:flex-row justify-center w-full max-w-lg space-y-4 md:space-y-0 md:space-x-8">
+            <div class="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-md w-full">
+                <!-- Phone Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="text-[#005A9C]" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.312 1.94a1.745 1.745 0 0 1 .163 2.611l-1.992 2.016a1.745 1.745 0 0 1-2.459.07C10.638 14.53 7.845 11.233 4.566 8.452a.678.678 0 0 0-.178-.644l-.547-2.19a1.745 1.745 0 0 1 .315-1.494L.885 2.98A1.745 1.745 0 0 1 1.885.511z"/></svg>
+                <div class="flex flex-col">
+                    <span class="text-sm font-semibold">Phone Number:</span>
+                    <span class="text-lg">+91 98765 43210</span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-md w-full">
+                <!-- Email Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.214C0 12.69 1.342 14 3 14h10c1.657 0 3-1.31 3-3.089V4.697l-5.89 3.927L10.5 8.938z"/></svg>
+                <div class="flex flex-col">
+                    <span class="text-sm font-semibold">Email:</span>
+                    <span class="text-lg">contact@ascira.gov.in</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p class="text-sm">© ASCIRA</p>
+    </footer>
+
+</body>
+</html>
